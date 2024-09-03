@@ -1,0 +1,15 @@
+C:\Users\Taleh\source\repos\threathome\bin\Debug\threathome.exe.config
+C:\Users\Taleh\source\repos\threathome\bin\Debug\threathome.exe
+C:\Users\Taleh\source\repos\threathome\bin\Debug\threathome.pdb
+C:\Users\Taleh\source\repos\threathome\obj\Debug\threathome.csproj.AssemblyReference.cache
+C:\Users\Taleh\source\repos\threathome\obj\Debug\MainWindow.g.cs
+C:\Users\Taleh\source\repos\threathome\obj\Debug\App.g.cs
+C:\Users\Taleh\source\repos\threathome\obj\Debug\threathome_MarkupCompile.cache
+C:\Users\Taleh\source\repos\threathome\obj\Debug\threathome_MarkupCompile.lref
+C:\Users\Taleh\source\repos\threathome\obj\Debug\MainWindow.baml
+C:\Users\Taleh\source\repos\threathome\obj\Debug\threathome.g.resources
+C:\Users\Taleh\source\repos\threathome\obj\Debug\threathome.Properties.Resources.resources
+C:\Users\Taleh\source\repos\threathome\obj\Debug\threathome.csproj.GenerateResource.cache
+C:\Users\Taleh\source\repos\threathome\obj\Debug\threathome.csproj.CoreCompileInputs.cache
+C:\Users\Taleh\source\repos\threathome\obj\Debug\threathome.exe
+C:\Users\Taleh\source\repos\threathome\obj\Debug\threathome.pdb

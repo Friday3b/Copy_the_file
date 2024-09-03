@@ -1,0 +1,46 @@
+﻿<Window x:Class="threathome.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:threathome"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="CornflowerBlue">
+
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+
+        </Grid.RowDefinitions>
+
+
+
+        <Grid Grid.Row="0" VerticalAlignment="Bottom">
+            <TextBlock Height="50" HorizontalAlignment="Left" Text="From" FontSize="35" FontWeight="ExtraLight" Margin="20 0 0 0"></TextBlock>
+            <TextBox Name="openfile_from_txtbox" Height="50" HorizontalAlignment="Center" Width="350" BorderBrush="Green" BorderThickness="3" FontSize="15"></TextBox>
+            <Button HorizontalAlignment="Right" Height="50" Width="100" Content="File..." FontSize="25" Margin="0 0 20 0" Click="OpenFile_From"></Button>
+
+        </Grid>
+
+
+        <Grid Grid.Row="1" VerticalAlignment="Top" Margin="0 20 0 0">
+            <TextBlock Height="50" HorizontalAlignment="Left" Text="To" FontSize="35" FontWeight="ExtraLight" Margin="20 0 0 0"></TextBlock>
+            <TextBox Name="openfile_to_txtbox" Height="50" HorizontalAlignment="Center" Width="350" BorderBrush="Green" BorderThickness="3" FontSize="15"></TextBox>
+            <Button HorizontalAlignment="Right" Height="50" Width="100" Content="File..." FontSize="25" Margin="0 0 20 0" Click =" OpenFile_To"></Button>
+
+        </Grid>
+
+        <Grid Grid.Row="2" VerticalAlignment="Top">
+            <ProgressBar Name="progressBar" Height="30" Width="400" HorizontalAlignment="Center" BorderBrush="Green" Minimum="0" Maximum="100" Margin="0 0 130 0"></ProgressBar>
+            <Button Background="Cornsilk" HorizontalAlignment="Right" Height="50" Width="100" Content="Copy" FontSize="25" Margin="0 0 20 0" Click="CopyButton_Click"></Button>
+            <Button Name="suspend_btn" HorizontalAlignment="Left" Width="100" Content="Suspend" FontSize="25" Margin="0,0,0,0" Height="50" VerticalAlignment="Top" Click="suspend_btn_Click"/>
+            
+            <Button HorizontalAlignment="Right" Height="50" Width="100" Content="Abort" FontSize="25" Margin="0 0 150 0" Click="abort_btn_Click"></Button>
+
+
+        </Grid>
+
+    </Grid>
+</Window>
